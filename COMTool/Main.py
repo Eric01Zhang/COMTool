@@ -241,8 +241,8 @@ class MainWindow(QMainWindow):
         settingLayout.addWidget(serialSendSettingsGroupBox)
 
         settingLayout.setStretch(0, 5)
-        settingLayout.setStretch(1, 2.5)
-        settingLayout.setStretch(2, 2.5)
+        settingLayout.setStretch(1, 2)
+        settingLayout.setStretch(2, 2)
 
         # right functional layout
         self.filePathWidget = QLineEdit()
